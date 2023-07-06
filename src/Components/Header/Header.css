@@ -1,0 +1,72 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.2rem 2rem;
+  border-bottom: 1px solid #999;
+  position: sticky;
+  top: 0;
+  z-index: 99;
+  background-color: #fff;
+}
+
+ul.navLinks,
+.right-navLinks {
+  display: flex;
+}
+
+ul.navLinks li a {
+  padding: 6px 10px;
+  margin: 0px 5px;
+}
+
+ul.navLinks li a.active {
+  color: #999;
+}
+
+ul.right-navLinks li a.cart__bag {
+  border: 1px solid #222;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 6px 5px 10px;
+  border-radius: 20px;
+  font-size: 14px;
+  position: relative;
+}
+
+ul.right-navLinks li a.cart__bag .badge {
+  background-color: #222;
+  padding: 1px 9px;
+  font-size: 14px;
+  border-radius: 20px;
+  color: #fff;
+  margin-left: 8px;
+  transition: 0.4s;
+}
+
+ul.right-navLinks li a.cart__bag:hover {
+  background-color: #222;
+}
+
+ul.right-navLinks li a.cart__bag:hover .goto_cart {
+  color: #fff !important;
+}
+
+ul.right-navLinks li a.cart__bag.active {
+  background-color: #222;
+}
+
+ul.right-navLinks li a.cart__bag.active .goto_cart {
+  color: #fff;
+}
+
+ul.right-navLinks li a.cart__bag:hover .badge {
+  background-color: #fff;
+  color: #222;
+}
+
+ul.right-navLinks li a.cart__bag.active .badge {
+  background-color: #fff;
+  color: #222 !important;
+}

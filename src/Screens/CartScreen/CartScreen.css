@@ -1,0 +1,110 @@
+.cart-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    height: calc(100vh - 75px);
+    margin: 0 auto;
+    max-width: 100%;
+    width: 80%;
+    padding-top: 3rem;
+}
+
+.cart-container .product-list {
+    /* border: 1px solid #999; */
+    width: 68%;
+}
+
+.cart-container .product-list table {
+    width: 100%;
+    /* border: 1px solid #999; */
+    border-collapse: collapse;
+}
+
+.cart-container .product-list table tr td {
+    padding: 10px;
+}
+
+.cart-container .product-list table tr {
+    border-bottom: 1px solid #999;
+}
+
+.cart-container .product-list table tr td .item {
+    display: flex;
+    align-items: center;
+}
+
+.cart-container .product-list table tr td .item .imgBx {
+    width: 120px;
+    height: 120px;
+    overflow: hidden;
+}
+
+.cart-container .product-list table tr td .item .imgBx img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.cart-container .product-list table tr td .item .itemInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* border: 1px solid #666; */
+    /* height: 90px; */
+    padding-left: 10px;
+}
+
+table tr td .item .itemInfo a.title:hover {
+    text-decoration: underline;
+}
+
+table tr td .item .itemInfo span {
+    color: #999;
+    font-size: 14px;
+}
+
+table tr td .item .itemInfo span.remove {
+    color: #666;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+table tr td .item .itemInfo span.remove:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.cart-container .order-summary {
+    width: 30%;
+    background-color: #eee;
+    height: auto;
+    /* border: 1px solid #999; */
+    /* padding: 2rem; */
+}
+
+.order-summary h2 {
+    margin-bottom: 10px;
+}
+
+.order-summary {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    padding: 1rem;
+}
+
+.order-summary .sub-total {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.order-summary button {
+    background-color: #111;
+    padding: 8px 20px;
+    color: #fff;
+    border-radius: 4px;
+    border: 1px transparent;
+    cursor: pointer;
+}

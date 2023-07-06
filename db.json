@@ -1,0 +1,41 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Product 1",
+      "quantity": 1,
+      "price": 10,
+      "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, cupiditate? Pariatur eius explicabo voluptas deleniti eos repellat sunt consequuntur praesentium dignissimos itaque earum, minima ad omnis magnam, consequatur nobis labore!",
+      "image": "https://images.unsplash.com/photo-1612817288484-6f916006741a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+      "category": "Ayurvedic"
+    },
+    {
+      "id": 2,
+      "name": "Product 2",
+      "quantity": 1,
+      "price": 20,
+      "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, cupiditate? Pariatur eius explicabo voluptas deleniti eos repellat sunt consequuntur praesentium dignissimos itaque earum, minima ad omnis magnam, consequatur nobis labore!",
+      "image": "https://img.freepik.com/free-photo/beauty-products-recipients-assortment-grey-stones_23-2148761390.jpg?w=740&t=st=1687593381~exp=1687593981~hmac=5bafee8108a1a1a70f99f894edec086cb892a414fdb7d9e3f84ea568617975c1",
+      "category": "Ayurvedic"
+    },
+    {
+      "id": 3,
+      "name": "Product 3",
+      "quantity": 1,
+      "price": 30,
+      "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, cupiditate? Pariatur eius explicabo voluptas deleniti eos repellat sunt consequuntur praesentium dignissimos itaque earum, minima ad omnis magnam, consequatur nobis labore!",
+      "image": "https://img.freepik.com/free-photo/relaxation-indoors-products-copy-space_23-2148796336.jpg?w=740&=st=1687674250~exp=1687674850~hmac=f0766d0e41c06aa2e8fc24d91a792ad2fab141f2a94fc08a9e462b8cc84a4346",
+      "category": "Jewellery"
+    },
+    {
+      "id": 4,
+      "name": "Product 4",
+      "quantity": 1,
+      "price": 30,
+      "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, cupiditate? Pariatur eius explicabo voluptas deleniti eos repellat sunt consequuntur praesentium dignissimos itaque earum, minima ad omnis magnam, consequatur nobis labore!",
+      "image": "https://images.unsplash.com/photo-1612817288484-6f916006741a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+      "category": "Kids"
+    }
+  ],
+  "cartItems": []
+}

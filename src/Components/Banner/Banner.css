@@ -1,0 +1,17 @@
+.banner {
+    height: 300px;
+    background-image: linear-gradient(to bottom, #00000090, #00000090), url("https://source.unsplash.com/1920x1080?fashion");
+    /* background-size: cover; */
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 3rem;
+}
+
+.banner .txtBx h2 {
+    text-align: center;
+    font-size: 45px;
+    color: #fff;
+}
